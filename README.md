@@ -1,4 +1,7 @@
 # soup
+
+[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?logo=discord&logoColor=white)](https://discord.gg/4ZKFmSupef)
+
 Rustで書かれた、非常に高速なHSP向けパッケージ及びプロジェクトマネージャー。
 
 ## ハイライト
