@@ -25,7 +25,7 @@ Rustで書かれた、非常に高速なHSP向けパッケージ及びプロジ�
 ### プロジェクト
 
 ```console
-PS C:\YourProjectFolder> soup new example
+$ soup new example
 "example" プロジェクトを作成しました。 [0s]
 
 プロジェクトを実行するには、以下のコマンドを使用してください。
@@ -36,7 +36,7 @@ soup run
 ### HSPバージョンの管理 (hspupd経由)
 
 ```console
-PS C:\YourProjectFolder\example> soup hsp list
+$ soup hsp list
 hsp36_base: HSP3フルセット(3.6) by ONION software (公開日 2021/08/10)
 hsp36en_base: HSP3フルセット英語版(3.6) by ONION software (公開日 2021/08/10)
 hsp37_base: HSP3基本システム(3.7) by ONION software (公開日 2025/09/04)
@@ -48,7 +48,7 @@ hsp37rc1_base: HSP3基本システム(3.7rc1) by ONION software (公開日 2025/
 詳細を確認するには、 soup hsp info <id> コマンドを使用します。
 これらをインストールするには、 soup hsp install <id> コマンドを使用します。
 
-PS C:\YourProjectFolder\example> soup hsp info hsp36_base
+$ soup hsp info hsp36_base
 hsp36_base: HSP3フルセット(3.6) by ONION software (公開日 2021/08/10)
 HSP3.6フルセットは、Windows上で動作する標準的なHSP3環境です。2021年にリリースされ長い期間使われている安定版としてお使い頂けます。
 Windowsアプリケーション(Win32/x64)、HSP3Dishアプリケーション、HGIMG4アプリケーション及びHSP3Dishマルチプラットフォームアプリケーションを作成できます。
